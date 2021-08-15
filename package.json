@@ -1,6 +1,6 @@
 {
   "name": "resume-nextjs",
-  "lastestUpdatedAt": "2020-11-08",
+  "lastestUpdatedAt": "2021-08-16",
   "version": "1.0.4",
   "description": "Static HTML based RESUME made with next.js",
   "main": "index.js",
@@ -15,22 +15,22 @@
     "preexport": "npm run clean && npm run build",
     "postexport": "node shellwork.js",
     "clean": "npx rimraf docs .next",
-    "lint": "eslint 'component/**/*' 'pages/**/*' 'payload/**/*' '*.ts' --fix",
+    "lint": "eslint component/**/* pages/**/* payload/**/* *.ts --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://uyu423.github.io/resume-nextjs",
+  "homepage": "https://wltjr0920.github.io/resume",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uyu423/resume-nextjs.git"
+    "url": "git+https://github.com/wltjr0920/resume.git"
   },
   "keywords": [
     "resume",
     "next"
   ],
   "author": {
-    "name": "Yowu Yu",
-    "email": "me@yowu.dev",
-    "url": "https://yowu.dev"
+    "name": "Jiseok Jang",
+    "email": "wltjr0920@ajou.ac.kr",
+    "url": "https://kante-dev.tistory.com"
   },
   "contributors": [],
   "license": "MIT",

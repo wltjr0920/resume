@@ -13,7 +13,7 @@ const backend: ISkill.Skill = {
     },
     {
       title: 'PHP',
-      level: 2,
+      level: 3,
     },
     {
       title: 'Java',
