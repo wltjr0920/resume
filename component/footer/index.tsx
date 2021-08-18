@@ -18,9 +18,7 @@ function Component({ payload }: PropsWithChildren<{ payload: IFooter.Payload }>)
             <small>
               v.{`${payload.version} / `}
               {/* Github 주소는 origin repository 의 주소를 넣는다. */}
-              <HrefTargetBlank url="https://github.com/uyu423/resume-nextjs" text="Github" />
-              {' / '}
-              Thanks for <HrefTargetBlank url="https://blog.outsider.ne.kr/1234" text="Outsider" />
+              <HrefTargetBlank url="https://github.com/wltjr0920" text="Github" />
             </small>
           </EmptyRowCol>
           <EmptyRowCol>

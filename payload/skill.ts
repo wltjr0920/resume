@@ -1,14 +1,24 @@
 import { ISkill } from '../component/skill/ISkill';
 
+const language: ISkill.Skill = {
+  category: 'Language',
+  items: [
+    {
+      title: 'C/C++',
+      level: 2,
+    },
+    {
+      title: 'Python',
+      level: 2,
+    },
+  ],
+};
+
 const backend: ISkill.Skill = {
   category: 'Back-end',
   items: [
     {
-      title: 'Node.js',
-      level: 3,
-    },
-    {
-      title: 'AWS',
+      title: 'Node.js (Express)',
       level: 3,
     },
     {
@@ -16,16 +26,12 @@ const backend: ISkill.Skill = {
       level: 3,
     },
     {
-      title: 'Java',
-      level: 1,
+      title: 'Ruby on Rails',
+      level: 2,
     },
     {
-      title: 'Python',
-      level: 1,
-    },
-    {
-      title: 'C/C++',
-      level: 1,
+      title: 'Django',
+      level: 2,
     },
   ],
 };
@@ -39,14 +45,14 @@ const database: ISkill.Skill = {
     },
     {
       title: 'Oracle',
+      level: 1,
+    },
+    {
+      title: 'Memcached',
       level: 2,
     },
     {
-      title: 'Redis',
-      level: 2,
-    },
-    {
-      title: 'MongoDB',
+      title: 'Firebase Firestore',
       level: 1,
     },
   ],
@@ -56,11 +62,11 @@ const frontend: ISkill.Skill = {
   category: 'Front-end',
   items: [
     {
-      title: 'Next.js',
+      title: 'Android',
       level: 2,
     },
     {
-      title: 'React.js',
+      title: 'React',
       level: 2,
     },
     {
@@ -69,7 +75,7 @@ const frontend: ISkill.Skill = {
     },
     {
       title: 'HTML/CSS',
-      level: 2,
+      level: 1,
     },
   ],
 };
@@ -78,19 +84,22 @@ const etc: ISkill.Skill = {
   category: 'Etc',
   items: [
     {
+      title: 'Docker',
+    },
+    {
+      title: 'Kubernetes',
+    },
+    {
       title: 'Ubuntu',
     },
     {
       title: 'Vim',
     },
     {
-      title: 'Security',
+      title: 'Redmine',
     },
     {
-      title: 'VS Code',
-    },
-    {
-      title: 'Jira',
+      title: 'Gitlab CI / CD',
     },
     {
       title: 'Confluence',
@@ -100,7 +109,7 @@ const etc: ISkill.Skill = {
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [backend, database, frontend, etc],
+  skills: [backend, database, frontend, language, etc],
   tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 

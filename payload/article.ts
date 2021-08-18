@@ -5,18 +5,12 @@ const article: IArticle.Payload = {
 
   list: [
     {
-      content: "IU's agency announces official online merchandise shop for fans (2020.04.22)",
-      href:
-        'https://www.gmanetwork.com/entertainment/celebritylife/news/62342/ius-agency-announces-official-online-merchandise-shop-for-fans/story',
+      content: '패션 스타일 트렌드 분석의 정량화를 위한 의사 결정 시스템 개발에 관한 연구(2020.08)',
+      href: 'https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10499014',
     },
     {
-      content: 'K-pop star IU donates ₩100 million to doctors for coronavirus relief (2020.02.27)',
-      href: 'http://www.koreabiomed.com/news/articleView.html?idxno=7550',
-    },
-    {
-      content: 'IU donates 100 million KRW after being inspired by her fans (2019.12.30)',
-      href:
-        'https://www.allkpop.com/article/2019/12/iu-donates-to-100-million-krw-after-being-inspired-by-her-fans',
+      content: 'FastText 를 이용한 키워드기반 아이디어 추천 알고리즘에 관한 연구 (2020.02)',
+      href: 'https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09346532',
     },
   ],
 };

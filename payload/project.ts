@@ -30,14 +30,18 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: 'Lorem ipsum Project',
-      startedAt: '2016-10',
-      endedAt: '2017-11',
-      where: 'Bar Co., LTD.',
+      title: '졸업 프로젝트 - 캡스톤 디자인',
+      startedAt: '2020-03',
+      endedAt: '2020-07',
+      where: '아주대학교',
       descriptions: [
         { content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' },
         { content: 'Integer massa magna, feugiat commodo arcu sed, sagittis sollicitudin tortor' },
-        { content: 'Nullam diam ex, interdum nec lacus vel, ultrices pretium sapien' },
+        {
+          content: 'Backend Repository',
+          href: 'https://github.com/wltjr0920/SwCap1995_backend_api_server_Nodejs',
+          weight: 'BOLD',
+        },
         { content: 'Proin bibendum non nibh eu aliquet' },
       ],
     },

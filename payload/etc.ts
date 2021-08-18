@@ -5,15 +5,16 @@ const etc: IEtc.Payload = {
 
   list: [
     {
-      title: 'Capstone Design Contest',
-      subTitle: 'Grand Prize',
-      startedAt: '2015-05',
+      title: 'BoostCamp 2020 Challenge',
+      subTitle: 'iOS 과정',
+      startedAt: '2020-07',
+      endedAt: '2020-08',
     },
     {
-      title: 'IT Education Service Activities',
-      subTitle: 'Wrold Friends IT Volunteer',
-      startedAt: '2013-07',
-      endedAt: '2013-08',
+      title: '아주대학교 SW 봉사동아리',
+      subTitle: 'SWeat',
+      startedAt: '2019-03',
+      endedAt: '2020-12',
     },
     {
       title: 'Information Olympiad',
