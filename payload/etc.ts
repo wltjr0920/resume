@@ -16,11 +16,6 @@ const etc: IEtc.Payload = {
       startedAt: '2019-03',
       endedAt: '2020-12',
     },
-    {
-      title: 'Information Olympiad',
-      subTitle: 'Silver Prize',
-      startedAt: '2008-05',
-    },
   ],
 };
 
